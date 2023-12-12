@@ -12,7 +12,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 
 func contactHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-type", "text/html; charset=utf-8")
-	fmt.Fprint(w, "<h1>Contact Page</h1><p> To get in touch, email me at <a href=\"mailto:kyrylyuk.a@gmail.com\"> kyrylyuk.a@gmail.com </a>.</p>")
+	fmt.Fprint(w, "<h1>Contact Page</h1><p> To get in touch, email me at <a href=\"mailto:test_email@gmail.com\"> test_email@gmail.com </a>.</p>")
 }
 
 func faqHandler(w http.ResponseWriter, r *http.Request) {
